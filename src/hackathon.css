@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+header {
+  background-color: rgb(211, 108, 71);
+  padding: 10px 5px;
+  color: white;
+}
+#titel {
+  width: 30%;
+  height: 120px;
+  border: 1px solid white;
+  padding: 10px 10px 30px 10px;
+  margin: 20px auto;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgb(218, 120, 120);
+}
+#titel input {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+#titel p {
+  margin-bottom: 5px;
+}
+body {
+  background-color: rgb(207, 221, 222);
+}
+#btn {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+}
+#btn-add {
+  width: 20px;
+  height: 20px;
+
+  background-color: rgb(211, 108, 71);
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  color: white;
+}
+.note-content {
+  width: 90%;
+  height: 80px;
+  border: 1px solid white;
+  padding: 10px 5px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgb(218, 120, 120);
+  margin: 50px 20px;
+}
+#delete-note {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  color: rgb(211, 108, 71);
+}
+.list-note {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#eroor-title {
+  color: brown;
+  font-size: 0.9em;
+}
+#erorr-content {
+  color: brown;
+  font-size: 0.9em;
+}
